@@ -26,6 +26,7 @@
         <section class="section">
             <div class="container">
                 <h1 class="title">Lebenslauf</h1>
+                <!-- TODO add links? -->
                 <table class="table">
                     <tr>
                         <td>2013</td>
@@ -59,7 +60,68 @@
             </div>
         </section>
         <section class="section">
-            <h1 class="title">Projekte</h1>
+            <div class="container">
+                <h1 class="title">Projekte</h1>
+                <div class="box">
+                    <h1 class="title is-5">Programmiertool für Montage</h1>
+                    <div class="content">
+                        Entwicklung einer Java-basierten PC-Anwendung zur Programmierung und Rückverfolgbarkeit von Embedded-Geräten. 
+                        Die Software ermöglicht die automatische und parallele Programmierung der Leiterplatten.
+                        das Programmiertool wird in-house auf mehreren Computer in der Montage eingesetzt.
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="title is-5">STM32 Bootloader</h1>
+                    <div class="content">
+                        Entwicklung eines Bootloaders für STM32-Mikrocontroller zur Kommunikation mit der Montage-Software. 
+                        Der Bootloader umfasst Sicherheitsfunktionen zum Schutz der Firmware und ermöglicht den sicheren Start der eigentlichen Anwendungssoftware nach erfolgreicher Programmierung.
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="title is-5">STM32 Bibliothek</h1>
+                    <div class="content">
+                       Entwicklung einer <i>modern C++</i> Bibliothek für STM32-Mikrocontroller, die ein Hardware-Interface und RTOS-Unterstützung umfasst. 
+                       Die Bibliothek integriert zusätzliche Funktionsbibliotheken zur effizienten Steuerung und Verwaltung von Hardwarekomponenten und Echtzeitbetriebssystemen. 
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="title is-5">Magnetische Wegmesssystem</h1>
+                    <div class="content">
+                        Entwicklung eines magnetischen Wegmesssystems in C++, welches Hall-Sensoren zur präzisen Wegmessung nutzt. 
+                        Die Implementierung umfasst die Linearisierung der Sensordaten und die Entwicklung eines entsprechenden Treibers zur effizienten Verarbeitung und Integration der Messwerte.
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="title is-5">Diverse Toolchain Projekte</h1>
+                    <div class="content">
+                        Diese Projekte beschreiben Einführungen und Entwicklungen verschiedener Tools, die für den Entwicklungsprozess notwendig sind.
+                        <ul>
+                            <li>Einführung der Versionsverwaltung mit Git und GitLab</li>
+                            <li>CLI-Tool zum Signieren und Verschlüsseln von Firmware</li>
+                            <li>Integration eines Trace Tools, um detaillierte Überwachung und Analyse von STM32 Geräten zu ermöglichen. 
+                                Dazu zählen RTOS-Aktivitäten, Speicherzugriffen und Ereignisse.
+                                Das Tool wird zur Fehlersuche und Leistungsoptimierung verwendet.
+                            </li>
+                            <li>Konzeptionierung und Einführung eines Build-System mit modern CMake</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="title is-5">Nerd Quiz App</h1>
+                    <div class="content">
+                       Entwicklung einer Full-Stack-Webapp in Rust mit Yew, Axum und SurrealDB. 
+                       Die App diente dem Lernen von Rust und bietet Funktionen für ein Quiz, einschließlich Buzzern, Beantworten von Aufschreibfragen, Punktezählung und Statistiken.
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="title is-5">Linearisierungs Prüfstand</h1>
+                    <div class="content">
+                        Entwicklung eines webbasierten Prüfstands für Windows in Rust.
+                        Die Anwendung stellt via Axum und HTMX eine Visualisierung der Linearisierung des Wegmesssystems zur Verfügung. 
+                        Dabei wird mit einer SPS über OPC-UA kommuniziert.
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section">
             <h1 class="title">Fähigkeiten</h1>
